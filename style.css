@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  margin: 20px;
+}
+/* Scrolling text animation */
+/* ****************************** */
+.scrolling-text {
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: yellowgreen;
+  width: 100%;
+  position: relative;
+  padding: 20px;
+}
+
+.scrolling-text div {
+  width: fit-content;
+  padding-left: 100%; /* 100% of the width of the parent */
+  animation: scrolling 10s linear infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/* ****************************** */
+/* Scrolling text animation */
+
+/* Typing text animation */
+/* ****************************** */
+#typed-container {
+  text-align: center; /* Center the text within the container */
+}
+#typed,.typed-cursor {
+  font-size: 2rem;
+  color: #333; /* Darker text color */
+  /* Add additional styles as needed for visual polish (e.g., font weight, line-height) */
+}
+/* ****************************** */
+/* Typing text animation */
