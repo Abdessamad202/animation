@@ -1,11 +1,11 @@
 // Typing animation
 // ****************************** //
 const typed = document.getElementById('typed');
-const strings = ["Hello World", ""]; // Array of strings to display
+const strings = ["Hello There ...", "","This is a typing animation example","Made By Abdessamad"]; // Array of strings to display
 
 const options = {
   strings: strings,
-  typeSpeed: 100,
+  typeSpeed: 40,
   backSpeed: 50,
   backDelay: 1000,
   loop: true,
