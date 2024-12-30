@@ -43,8 +43,6 @@ h1{
 }
 #typed,.typed-cursor {
   font-size: 2rem;
-  color: #333; /* Darker text color */
-  /* Add additional styles as needed for visual polish (e.g., font weight, line-height) */
 }
 /* ****************************** */
 /* Typing text animation */
