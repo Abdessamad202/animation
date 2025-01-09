@@ -68,3 +68,46 @@ h1{
 }
 /* ****************************** */
 /* Smooth animation cards */
+
+/*  button animation hover */
+/* ****************************** */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+}
+.btn {
+  position: relative;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: yellowgreen;
+  color: white;
+  border: none;
+  z-index: 1;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+}
+.btn::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 50px;
+  left: 0;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  transition: 0.5s;
+}
+.btn:hover::after {
+  top: -50px;
+  left: -50px;
+}
+/* button:hover {
+  background-color: red;
+} */
+/* ****************************** */
+/* button animation hover */
