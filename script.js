@@ -26,7 +26,6 @@ anime({
   duration: 500,
   direction: 'alternate',
   loop: true,
-
   easing: 'easeOutQuad'
 });
 // ****************************** //
